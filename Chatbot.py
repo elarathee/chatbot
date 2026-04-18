@@ -17,7 +17,7 @@ if "messages" not in st.session_state:
 # Initialize ChatOpenAI with Together AI
 llm = ChatOpenAI(
     model="meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    api_key=st.secrets["TOGETHER_API_KEY"],
+    api_key=st.secrets["d26c553716cb9a9b466acf8055c8056fc02b293506cacbd1354725412ed434a4"],
     base_url="https://api.together.xyz/v1",
     temperature=0.7
 )
